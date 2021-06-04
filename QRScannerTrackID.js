@@ -50,7 +50,7 @@ $(document).ready(function () {
 
       let html5QrcodeScanner = new Html5QrcodeScanner(
         "reader",
-        { fps: 10, aspectRatio: 1.0 },
+        { fps: 10, aspectRatio: 1.0, qrbox: 250 },
         /* verbose= */ false
       );
 
